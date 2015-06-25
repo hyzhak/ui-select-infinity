@@ -1,5 +1,5 @@
 # ui-select-infinity
-Extension of ui-select for support infinity list of items
+Extend `ui-select` with Infinity list of items feature.
 
 ## Installing
 
