@@ -1,5 +1,5 @@
 # ui-select-infinity
-Extend `ui-select` with Infinity list of items feature.
+Extend `ui-select` with feature of infinity scrolling.
 
 ## Installing
 

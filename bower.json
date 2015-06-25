@@ -3,9 +3,9 @@
   "version": "0.1.4",
   "homepage": "https://github.com/hyzhak/ui-select-infinity",
   "authors": [
-    "Eugene Krevenets <hyzhak@ya.ru>"
+    "Eugene Krevenets <ievgenii.krevenets@gmail.com> (http://hyzhak.github.io)"
   ],
-  "description": "extension of ui-select to support infinity list of items",
+  "description": "Extend `ui-select` with feature of infinity scrolling",
   "main": "lib/index.js",
   "moduleType": [
     "globals"

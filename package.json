@@ -1,0 +1,23 @@
+{
+  "name": "ui-select-infinity",
+  "version": "0.1.4",
+  "description": "extension of ui-select to support infinity list of items ",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyzhak/ui-select-infinity.git"
+  },
+  "keywords": [
+    "ui-select",
+    "angular"
+  ],
+  "author": "Eugene Krevenets <ievgenii.krevenets@gmail.com> (http://hyzhak.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyzhak/ui-select-infinity/issues"
+  },
+  "homepage": "https://github.com/hyzhak/ui-select-infinity#readme"
+}
