@@ -1,6 +1,6 @@
 {
   "name": "ui-select-infinity",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "extension of ui-select to support infinity list of items ",
   "main": "lib/index.js",
   "scripts": {
