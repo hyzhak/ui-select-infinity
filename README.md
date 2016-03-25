@@ -8,6 +8,7 @@ bower install --save ui-select-infinity
 ```
 
 ## Example
+Example on Pluker: [Link](http://plnkr.co/edit/rzxHXGUm9eKEUqRSKWyj?p=preview)
 
 ```javascript
 
