@@ -1,6 +1,8 @@
 # ui-select-infinity [![npm version](https://badge.fury.io/js/ui-select-infinity.svg)](http://badge.fury.io/js/ui-select-infinity)
 Extend `ui-select` with feature of infinity scrolling.
 
+This is a fork of https://github.com/hyzhak/ui-select-infinity that also works for IE >= 9. As that project seems not to be maintained, I forked the project in order to have this IE support.
+
 ## Installing
 
 ```
@@ -17,11 +19,11 @@ angular
         var loadingItem = {type: 'loading'},
             hasNextChunk = true,
             queryString = '';
-            
+
         function getInfinityScrollChunk(id) {
             //implement your lazy data request here
         }
-            
+
         function addLoadingStateItem() {
             $scope.collections.push(loadingItem);
         }
@@ -31,22 +33,22 @@ angular
             if (index < 0) {
                 return;
             }
-            
+
             $scope.collections.splice(index, 1);
         }
-        
+
         
         $scope.isItemMatch = function($select) {
             //implement your match function here by $select.search   
         };
-            
+
         $scope.requestMoreItems = function() {
             if ($scope.isRequestMoreItems || !hasNextChunk) {
                 return $q.reject();
             }
 
             addLoadingStateItem();
-            
+
             $scope.isRequestMoreItems = true;
             return getInfinityScrollChunk(nextChunkId)
                 .then(function(newItems) {
@@ -61,7 +63,7 @@ angular
                     $scope.isRequestMoreItems = false;
                 });
         };
-        
+
         $scope.refreshList = function() {
             queryString = query;
         };
