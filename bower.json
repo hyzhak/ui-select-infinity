@@ -1,10 +1,7 @@
 {
-  "name": "ui-select-infinity",
-  "version": "0.1.6",
-  "homepage": "https://github.com/hyzhak/ui-select-infinity",
-  "authors": [
-    "Eugene Krevenets <ievgenii.krevenets@gmail.com> (http://hyzhak.github.io)"
-  ],
+  "name": "ui-select-infinity-ie",
+  "version": "0.1.7",
+  "homepage": "https://github.com/bastidiaaz/ui-select-infinity-ie",
   "description": "Extend `ui-select` with feature of infinity scrolling",
   "main": "lib/index.js",
   "moduleType": [
